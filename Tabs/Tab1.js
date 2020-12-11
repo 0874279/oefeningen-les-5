@@ -8,6 +8,7 @@ OPDRACHT 1:
 De tekst lees nu wel erg moeilijk op de app. Zorg dat er ruimte (padding) komt tussen de alineas!
 OPDRACHT 2:
 Niet alle tekst is zichtbaar op de pagina omdat de ScrollContainer nog niet werkt. 
+De container is te vinden in /Containers.js
 Maak van de ScrollContainer een styled.ScrollView.
 OPDRACHT 3:
 Plaats onder de ScrollContainer een NormalButton met Tekst erin! Zorg ervoog dat deze button buiten de ScrollContainer zit.
