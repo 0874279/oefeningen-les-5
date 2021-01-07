@@ -5,7 +5,7 @@ import styled from 'styled-components/native';
 // zie je dat de achtergrond van alle pagina's wordt aangepast?
 export const MainContainer = styled.View`
     flex: 1;
-    background-color: salmon;
+    background-color: white;
     align-items: center;
     justify-content: center;
 `;
@@ -23,3 +23,20 @@ export const ArrayList = styled.FlatList`
 export const ListItem = styled.View`
 
 `;
+
+export const BackgroundContainer = styled.ImageBackground`
+    flex: 1;
+
+`
+
+export const LoginContainer = styled.View`
+    flex: 2;
+`
+
+export const BottomContainer = styled.View`
+    flex: 1;
+`
+
+export const TopContainer = styled.View`
+    flex: 1;
+`

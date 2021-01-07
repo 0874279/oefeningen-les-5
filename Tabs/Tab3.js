@@ -1,14 +1,27 @@
-import { StatusBar } from 'expo-status-bar';
+// Kopieer deze volledige pagina en plaats hem in jouw Tab3.js file. Let op dat je alles hebt gekopieerd!
 import React from 'react';
-import { MainContainer } from './Components/Containers';
-import { SmallText } from './Components/Text';
+import { Alert } from 'react-native';
+import { BackgroundContainer, BottomContainer, LoginContainer, TopContainer } from './Components/Containers';
+import Icon from 'react-native-vector-icons/FontAwesome';
+import { Input, Button, SocialIcon, Image } from 'react-native-elements';
+
+const bgImage = { uri: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/496ecb14589707.562865d064f9e.png"};
+const amongUs = { uri: "https://www.kliksafe.nl/wp-content/uploads/2020/10/imposter.png"};
+
 
 export default function Tab3() {
   return (
-    <MainContainer>
-      <SmallText>
-        Deze pagina is voor als je klaar bent met Tab1 en Tab2. 
-        Voeg hier een klikbare afbeelding toe. Kijk hoe je dit ookalweer doet in de vorige lessen!</SmallText>
-    </MainContainer>
+    <BackgroundContainer source={bgImage}>
+      <TopContainer>
+
+      </TopContainer>
+      <LoginContainer>
+
+      </LoginContainer>
+      <BottomContainer>
+
+
+      </BottomContainer>
+    </BackgroundContainer>
   );
 }
